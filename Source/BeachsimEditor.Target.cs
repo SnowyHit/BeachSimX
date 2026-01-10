@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class BeachsimEditorTarget : TargetRules
 {
-	public BeachsimEditorTarget( TargetInfo Target) : base(Target)
+	public BeachsimEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V6;
