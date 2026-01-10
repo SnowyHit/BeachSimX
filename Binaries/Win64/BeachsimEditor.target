@@ -36,6 +36,50 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSessions/Binaries/Win64/UnrealEditor-AdvancedSessions.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSessions/Binaries/Win64/UnrealEditor-AdvancedSessions.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSessions/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSteamSessions/Binaries/Win64/UnrealEditor-AdvancedSteamSessions.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSteamSessions/Binaries/Win64/UnrealEditor-AdvancedSteamSessions.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSteamSessions/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CommonLoadingScreen/Binaries/Win64/UnrealEditor-CommonLoadingScreen.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CommonLoadingScreen/Binaries/Win64/UnrealEditor-CommonLoadingScreen.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CommonLoadingScreen/Binaries/Win64/UnrealEditor-CommonStartupLoadingScreen.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CommonLoadingScreen/Binaries/Win64/UnrealEditor-CommonStartupLoadingScreen.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CommonLoadingScreen/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2000,6 +2044,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Animation/AnimationLocomotionLibrary/Binaries/Win64/UnrealEditor-AnimationLocomotionLibraryEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/AnimationLocomotionLibrary/Binaries/Win64/UnrealEditor-AnimationLocomotionLibraryRuntime.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/AnimationLocomotionLibrary/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Animation/AnimationModifierLibrary/Binaries/Win64/UnrealEditor-AnimationModifierLibrary.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2008,11 +2064,35 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Animation/AnimationWarping/Binaries/Win64/UnrealEditor-AnimationWarpingEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/AnimationWarping/Binaries/Win64/UnrealEditor-AnimationWarpingRuntime.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/AnimationWarping/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Animation/BlendSpaceMotionAnalysis/Binaries/Win64/UnrealEditor-BlendSpaceMotionAnalysis.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Animation/BlendSpaceMotionAnalysis/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/BlendStack/Binaries/Win64/UnrealEditor-BlendStack.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/BlendStack/Binaries/Win64/UnrealEditor-BlendStackEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/BlendStack/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2109,6 +2189,26 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Animation/IKRig/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/MotionWarping/Binaries/Win64/UnrealEditor-MotionWarping.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/MotionWarping/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/PoseSearch/Binaries/Win64/UnrealEditor-PoseSearch.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/PoseSearch/Binaries/Win64/UnrealEditor-PoseSearchEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/PoseSearch/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2257,6 +2357,34 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/ChaosVD/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Chooser/Binaries/Win64/UnrealEditor-Chooser.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Chooser/Binaries/Win64/UnrealEditor-ChooserEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Chooser/Binaries/Win64/UnrealEditor-ChooserUncooked.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Chooser/Binaries/Win64/UnrealEditor-ProxyTable.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Chooser/Binaries/Win64/UnrealEditor-ProxyTableEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Chooser/Binaries/Win64/UnrealEditor-ProxyTableUncooked.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Chooser/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2805,6 +2933,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/AdvancedRenamer/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/Animation/MotionTrajectory/Binaries/Win64/UnrealEditor-MotionTrajectory.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/Animation/MotionTrajectory/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -3376,6 +3512,74 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RD.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RD.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderDebuggerSupport.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderDebuggerSupport.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderGameControl.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderGameControl.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLC.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLC.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLink.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLink.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderShaderInfo.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderShaderInfo.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/MassInsights/Binaries/Win64/UnrealEditor-MassInsightsAnalysis.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3660,6 +3864,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UnrealEditor-OnlineSubsystemSteam.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UnrealEditor-OnlineBlueprintSupport.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3825,6 +4037,22 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ChunkDownloader/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/CommonUI/Binaries/Win64/UnrealEditor-CommonInput.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/CommonUI/Binaries/Win64/UnrealEditor-CommonUI.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/CommonUI/Binaries/Win64/UnrealEditor-CommonUIEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/CommonUI/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -4140,6 +4368,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamShared/Binaries/Win64/UnrealEditor-SteamShared.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamShared/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Synthesis/Binaries/Win64/UnrealEditor-Synthesis.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4295,6 +4531,18 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/Beachsim.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSessions/AdvancedSessions.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSteamSessions/AdvancedSteamSessions.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/CommonLoadingScreen/CommonLoadingScreen.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -23738,6 +23986,10 @@
 			"Type": "NonUFS"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/Steamworks/Steamv161/Win64/steam_api64.dll",
+			"Type": "NonUFS"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
 			"Type": "NonUFS"
 		},
@@ -28026,11 +28278,23 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Animation/AnimationLocomotionLibrary/AnimationLocomotionLibrary.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Animation/AnimationModifierLibrary/AnimationModifierLibrary.uplugin",
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Animation/AnimationWarping/AnimationWarping.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Animation/BlendSpaceMotionAnalysis/BlendSpaceMotionAnalysis.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/BlendStack/BlendStack.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -28059,6 +28323,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Animation/IKRig/IKRig.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/MotionWarping/MotionWarping.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/PoseSearch/PoseSearch.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -28107,6 +28379,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/ChaosVD/ChaosVD.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Chooser/Chooser.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -28350,6 +28626,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/Animation/MotionTrajectory/MotionTrajectory.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/AutomationUtils/AutomationUtils.uplugin",
 			"Type": "UFS"
 		},
@@ -28514,6 +28794,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/RiderLink.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/MassInsights/MassInsights.uplugin",
 			"Type": "UFS"
 		},
@@ -28622,6 +28906,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin",
 			"Type": "UFS"
 		},
@@ -28683,6 +28971,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ChunkDownloader/ChunkDownloader.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/CommonUI/CommonUI.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -28770,6 +29062,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamShared/SteamShared.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Synthesis/Synthesis.uplugin",
 			"Type": "UFS"
 		},
@@ -28824,6 +29120,8 @@
 		"ActorLayerUtilities",
 		"ActorSequence",
 		"AdvancedRenamer",
+		"AdvancedSessions",
+		"AdvancedSteamSessions",
 		"AlembicImporter",
 		"AndroidDeviceProfileSelector",
 		"AndroidFileServer",
@@ -28831,8 +29129,10 @@
 		"AndroidMoviePlayer",
 		"AndroidPermission",
 		"AnimationData",
+		"AnimationLocomotionLibrary",
 		"AnimationModifierLibrary",
 		"AnimationSharing",
+		"AnimationWarping",
 		"AppleImageUtils",
 		"AppleMoviePlayer",
 		"ArchVisCharacter",
@@ -28848,6 +29148,7 @@
 		"BaseCharacterFXEditor",
 		"BaseMaterial",
 		"BlendSpaceMotionAnalysis",
+		"BlendStack",
 		"BlueprintHeaderView",
 		"Bridge",
 		"CLionSourceCodeAccess",
@@ -28864,10 +29165,13 @@
 		"ChaosUserDataPT",
 		"ChaosVD",
 		"CharacterAI",
+		"Chooser",
 		"ChunkDownloader",
 		"CmdLinkServer",
 		"CodeLiteSourceCodeAccess",
 		"ColorGrading",
+		"CommonLoadingScreen",
+		"CommonUI",
 		"CompositeCore",
 		"ComputeFramework",
 		"ContentBrowserAssetDataSource",
@@ -28949,6 +29253,8 @@
 		"MobileLauncherProfileWizard",
 		"MobilePatchingUtils",
 		"ModelingToolsEditorMode",
+		"MotionTrajectory",
+		"MotionWarping",
 		"MsQuic",
 		"N10XSourceCodeAccess",
 		"NFORDenoise",
@@ -28966,6 +29272,7 @@
 		"OnlineSubsystemGooglePlay",
 		"OnlineSubsystemIOS",
 		"OnlineSubsystemNull",
+		"OnlineSubsystemSteam",
 		"OnlineSubsystemUtils",
 		"OodleNetwork",
 		"Paper2D",
@@ -28977,6 +29284,7 @@
 		"PluginBrowser",
 		"PluginUtils",
 		"PortableObjectFileDataSource",
+		"PoseSearch",
 		"ProceduralMeshComponent",
 		"ProjectLauncher",
 		"PropertyAccessEditor",
@@ -28987,6 +29295,7 @@
 		"RenderDocPlugin",
 		"RenderGraphInsights",
 		"ResonanceAudio",
+		"RiderLink",
 		"RiderSourceCodeAccess",
 		"RigLogic",
 		"RigVM",
@@ -29001,6 +29310,7 @@
 		"SoundFields",
 		"SpeedTreeImporter",
 		"StateTree",
+		"SteamShared",
 		"StylusInput",
 		"SubversionSourceControl",
 		"Synthesis",
